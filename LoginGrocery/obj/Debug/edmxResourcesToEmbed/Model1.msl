@@ -13,7 +13,6 @@
     <EntitySetMapping Name="UserLogins">
       <EntityTypeMapping TypeName="LoginModel.UserLogin">
         <MappingFragment StoreEntitySet="UserLogin">
-          <ScalarProperty Name="UserLoginId" ColumnName="UserLoginId" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />

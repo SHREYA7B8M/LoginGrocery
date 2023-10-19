@@ -19,7 +19,7 @@ namespace LoginGrocery
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button3_Click(object sender, EventArgs e)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace LoginGrocery
 
 
                     }
-                    Response.Redirect("Destination.aspx");
+                    Response.Redirect("UserLogin.aspx");
 
 
                 }
@@ -58,6 +58,5 @@ namespace LoginGrocery
                 Response.Write("<script>alert('" + ex.Message + "')</script>");
             }
         }
-
     }
 }

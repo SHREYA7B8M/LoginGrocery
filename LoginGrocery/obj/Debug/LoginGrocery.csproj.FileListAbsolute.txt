@@ -71,3 +71,7 @@ C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\obj\Debug\LoginGrocery.cs
 C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\obj\Debug\LoginGrocery.csproj.CopyComplete
 C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\obj\Debug\LoginGrocery.dll
 C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\obj\Debug\LoginGrocery.pdb
+C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\bin\EntityFramework.dll
+C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\bin\EntityFramework.SqlServer.dll
+C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\bin\EntityFramework.xml
+C:\Users\KIIT\Desktop\Re-RLL\LoginGrocery\LoginGrocery\bin\EntityFramework.SqlServer.xml

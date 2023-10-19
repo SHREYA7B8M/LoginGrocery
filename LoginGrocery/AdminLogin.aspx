@@ -76,7 +76,7 @@
                                <br>
                                
                                 <div class="form-group">
-                                    <asp:Button class="btn btn-success w-100 btn-lg" ID="Button3" runat="server" Text="Login"  />
+                                    <asp:Button class="btn btn-success w-100 btn-lg" ID="Button3" runat="server" Text="Login" OnClick="Button3_Click"  />
                                </div>
 
 

@@ -82,7 +82,7 @@
                                
 
                                <div class="form-group">
-                                   <asp:Button ID="Button1" class="btn btn-primary w-100 btn-lg" runat="server" Text="Update" />
+                                   <asp:Button ID="Button1" class="btn btn-primary w-100 btn-lg" runat="server" Text="Update" OnClick="Button1_Click" />
                                   
                                </div>
                                <br>

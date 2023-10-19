@@ -10,10 +10,9 @@
   </EntityType>
   <EntityType Name="UserLogin">
     <Key>
-      <PropertyRef Name="UserLoginId" />
+      <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="UserLoginId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="UserRegistration" Relationship="Self.FK__UserLogin__UserI__3A81B327" FromRole="UserLogin" ToRole="UserRegistration" />
