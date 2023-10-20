@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AboutAdmin.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -202,6 +203,13 @@
     <Content Include="Site1.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutAdmin.aspx.cs">
+      <DependentUpon>AboutAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutAdmin.aspx.designer.cs">
+      <DependentUpon>AboutAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminLogin.aspx.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

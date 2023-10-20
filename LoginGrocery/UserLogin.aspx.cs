@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Security;
 
 namespace LoginGrocery
 {
@@ -43,7 +44,9 @@ namespace LoginGrocery
                         Session["role"] = "user";
 
                     }
-                    Response.Redirect("AdminLogin.aspx");
+                   // FormsAuthentication.SetAuthCookie(userId, false);
+
+                    Response.Redirect("About.aspx");
                 }
                 else
                 {
